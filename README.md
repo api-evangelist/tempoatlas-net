@@ -64,9 +64,9 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-TempoAtlas provides a neutral, sourced, current reference for the Tempo payments blockchain ecosystem, covering protocol details, stablecoins, partners, validators, infrastructure, data, and job listings. It aggregates facts with citations and dates, aiming to be the definitive record for developers, researchers, and stakeholders interested in the Stripe and Paradigm‑backed Tempo network.
+TempoAtlas is an independent, sourced, neutral reference for the Tempo payments blockchain. It tracks protocols, stablecoins, partners, validators, infrastructure, data, and jobs, providing up‑to‑date facts with sources and confidence scores. The site offers ecosystem maps, entity directories, developer quickstarts, and a public API for accessing this curated information.
 
-**Areas:** Payments · Blockchain · Data · Ecosystem · OpenSource
+**Areas:** Company
 
 ## TempoAtlas on APIs.io
 
@@ -74,11 +74,11 @@ Everything profiled for TempoAtlas is published on APIs.io rather than in this r
 
 ### APIs (5)
 
-- [TempoAtlas Entities API](https://apis.io/apis/tempoatlas-net/tempoatlas-net-entities-api/) — The Entities API from TempoAtlas, for entities.
-- [TempoAtlas Jobs API](https://apis.io/apis/tempoatlas-net/tempoatlas-net-jobs-api/) — The Jobs API from TempoAtlas, for jobs.
-- [TempoAtlas Metrics API](https://apis.io/apis/tempoatlas-net/tempoatlas-net-metrics-api/) — The Metrics API from TempoAtlas, for metrics.
-- [TempoAtlas Search API](https://apis.io/apis/tempoatlas-net/tempoatlas-net-search-api/) — The Search API from TempoAtlas, for search.
-- [TempoAtlas Validators API](https://apis.io/apis/tempoatlas-net/tempoatlas-net-validators-api/) — The Validators API from TempoAtlas, for validators.
+- [TempoAtlas Entities API](https://apis.io/apis/tempoatlas-net/tempoatlas-net-entities-api/) — The Entities API from TempoAtlas — 2 operation(s) for entities.
+- [TempoAtlas Jobs API](https://apis.io/apis/tempoatlas-net/tempoatlas-net-jobs-api/) — The Jobs API from TempoAtlas — 1 operation(s) for jobs.
+- [TempoAtlas Metrics API](https://apis.io/apis/tempoatlas-net/tempoatlas-net-metrics-api/) — The Metrics API from TempoAtlas — 1 operation(s) for metrics.
+- [TempoAtlas Search API](https://apis.io/apis/tempoatlas-net/tempoatlas-net-search-api/) — The Search API from TempoAtlas — 1 operation(s) for search.
+- [TempoAtlas Validators API](https://apis.io/apis/tempoatlas-net/tempoatlas-net-validators-api/) — The Validators API from TempoAtlas — 1 operation(s) for validators.
 
 ### Published properties
 
@@ -122,30 +122,31 @@ Authentication, trust centre, and vulnerability disclosure.
 Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://tempoatlas.net/)
-- [API reference](https://tempoatlas.net/api/v1)
+- [Documentation](https://tempoatlas.net/developers)
+- [API reference](https://tempoatlas.net/api/v1/openapi.json)
 - [GitHub](https://github.com/tempoxyz)
 
 ## API Evangelist rating
 
-**Kin Score 33.3** — thin · rubric 0.29.0 · scored 2026-11-26
+**Kin Score 30.7** — thin · rubric 0.28.0 · scored 2026-11-27
 
 | Facet | Score |
 |---|---|
-| Discoverability | 73.2 |
-| Contract quality | 59.1 |
+| Discoverability | 57.1 |
+| Contract quality | 52.4 |
 | Contract governance | 79.1 |
 | Operational transparency | 4.8 |
 | Developer ergonomics | 16.7 |
 | Access clarity | 0.0 |
 
-**Agent readiness 26.2** — agent-aware
+**Agent readiness 22.8** — agent-aware
 
 | Agent-readiness dimension | Result |
 |---|---|
 | Spec Presence | yes |
 | Agentic Access | unknown |
 | Reversibility Documented | — |
-| MCP Server | documented (partial credit) |
+| MCP Server | — |
 | Auth Clarity | — |
 | Idempotency | — |
 | Error Semantics | derived (partial credit) |
@@ -154,7 +155,7 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Event Surface Described | — |
 | Agent Skills | — |
 | Well Known Catalog | — |
-| Consent Identity | signal |
+| Consent Identity | — |
 | Agent Card | — |
 | Dry Run Mode | — |
 | Delegated Identity | — |
@@ -164,11 +165,8 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Pagination Ratio | partial |
 | Operation Distinctiveness | distinct |
 | MCP Tool Quality | na |
-| Onboarding Descriptor | — |
-| Dns Aid Index | na |
-| Markdown Negotiation | na |
 
-**Regulatory alignment 4.5** — Payments
+**Regulatory alignment 4.9** — Horizontal (data, software, accessibility, platform)
 
 The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/tempoatlas-net/](https://apis.io/providers/tempoatlas-net/).
 
