@@ -1,4 +1,4 @@
-# tempoatlas-net
+# TempoAtlas
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,122 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-tempoatlas-net is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://tempoatlas.net/
+TempoAtlas provides a neutral, sourced, current reference for the Tempo payments blockchain ecosystem, covering protocol details, stablecoins, partners, validators, infrastructure, data, and job listings. It aggregates facts with citations and dates, aiming to be the definitive record for developers, researchers, and stakeholders interested in the Stripe and Paradigm‑backed Tempo network.
+
+**Areas:** Payments · Blockchain · Data · Ecosystem · OpenSource
+
+## TempoAtlas on APIs.io
+
+Everything profiled for TempoAtlas is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/tempoatlas-net/](https://apis.io/providers/tempoatlas-net/)** — or go straight to one of the APIs or properties below.
+
+### APIs (5)
+
+- [TempoAtlas Entities API](https://apis.io/apis/tempoatlas-net/tempoatlas-net-entities-api/) — The Entities API from TempoAtlas, for entities.
+- [TempoAtlas Jobs API](https://apis.io/apis/tempoatlas-net/tempoatlas-net-jobs-api/) — The Jobs API from TempoAtlas, for jobs.
+- [TempoAtlas Metrics API](https://apis.io/apis/tempoatlas-net/tempoatlas-net-metrics-api/) — The Metrics API from TempoAtlas, for metrics.
+- [TempoAtlas Search API](https://apis.io/apis/tempoatlas-net/tempoatlas-net-search-api/) — The Search API from TempoAtlas, for search.
+- [TempoAtlas Validators API](https://apis.io/apis/tempoatlas-net/tempoatlas-net-validators-api/) — The Validators API from TempoAtlas, for validators.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [TempoAtlas Agentic Access](https://apis.io/agentic-access/tempoatlas-net/tempoatlas-net-agentic-access/)
+
+#### JSON Schema (4)
+
+The data models the API reads and writes.
+
+- [Entity](https://apis.io/schemas/tempoatlas-net/tempoatlas-net-entity/)
+- [EntityDetail](https://apis.io/schemas/tempoatlas-net/tempoatlas-net-entity-detail/)
+- [Metric](https://apis.io/schemas/tempoatlas-net/tempoatlas-net-metric/)
+- [Validator](https://apis.io/schemas/tempoatlas-net/tempoatlas-net-validator/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Tempoatlas Net Context](https://apis.io/jsonld/tempoatlas-net/tempoatlas-net-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [TempoAtlas API Rules](https://apis.io/rules/tempoatlas-net/tempoatlas-net-rules/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [TempoAtlas Domain Security](https://apis.io/security/tempoatlas-net/tempoatlas-net-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://tempoatlas.net/)
+- [API reference](https://tempoatlas.net/api/v1)
+- [GitHub](https://github.com/tempoxyz)
+
+## API Evangelist rating
+
+**Kin Score 33.3** — thin · rubric 0.29.0 · scored 2026-11-26
+
+| Facet | Score |
+|---|---|
+| Discoverability | 73.2 |
+| Contract quality | 59.1 |
+| Contract governance | 79.1 |
+| Operational transparency | 4.8 |
+| Developer ergonomics | 16.7 |
+| Access clarity | 0.0 |
+
+**Agent readiness 26.2** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | signal |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | partial |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+| Onboarding Descriptor | — |
+| Dns Aid Index | na |
+| Markdown Negotiation | na |
+
+**Regulatory alignment 4.5** — Payments
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/tempoatlas-net/](https://apis.io/providers/tempoatlas-net/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for TempoAtlas: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/tempoatlas-net/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
